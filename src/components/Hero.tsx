@@ -1,8 +1,6 @@
-
 import React from 'react';
 import { ArrowDown, FileDown, Mail } from 'lucide-react';
 import { Button } from "@/components/ui/button";
-
 const Hero = () => {
   return <section className="min-h-screen pt-24 pb-12 px-6 md:px-12 flex flex-col md:flex-row items-center justify-center bg-neutral-100/30">
       <div className="container mx-auto max-w-7xl flex flex-col md:flex-row items-center">
