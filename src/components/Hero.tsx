@@ -61,7 +61,7 @@ const Hero = () => {
       }}>
           <div className="relative w-full max-w-md">
             <div className="absolute -z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-br from-beige to-soft-blue rounded-full opacity-50 blur-3xl"></div>
-            <img src="/lovable-uploads/9344595c-8d1d-46bd-9343-84948f9a4420.png" alt="Izaz Zubayer Illustration" className="w-full h-auto object-contain relative z-10" />
+            <img alt="Izaz Zubayer Illustration" src="/lovable-uploads/c7483ca3-78a1-4ab1-8cc6-0626e0603ec0.png" className="w-full h-auto object-contain relative z-10" />
           </div>
         </div>
       </div>
