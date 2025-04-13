@@ -46,13 +46,7 @@ const Hero = () => {
             </Button>
           </div>
           
-          <div className="hidden md:flex justify-center pt-12 animate-fade-in" style={{
-          animationDelay: '0.7s'
-        }}>
-            <a href="#design" className="text-neutral-500 hover:text-neutral-800 transition-colors">
-              <ArrowDown className="h-8 w-8 animate-bounce" />
-            </a>
-          </div>
+          
         </div>
         
         {/* Right Content - Illustration */}
