@@ -1,6 +1,8 @@
+
 import React from 'react';
 import { ArrowDown, FileDown, Mail } from 'lucide-react';
 import { Button } from "@/components/ui/button";
+
 const Hero = () => {
   return <section className="min-h-screen pt-24 pb-12 px-6 md:px-12 flex flex-col md:flex-row items-center justify-center bg-neutral-100/30">
       <div className="container mx-auto max-w-7xl flex flex-col md:flex-row items-center">
@@ -38,11 +40,15 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 pt-4 animate-fade-in" style={{
           animationDelay: '0.6s'
         }}>
-            <Button className="bg-neutral-800 hover:bg-neutral-700 text-white font-sofia">
-              <FileDown className="mr-2 h-4 w-4" /> Download Resume
+            <Button className="bg-neutral-800 hover:bg-neutral-700 text-white font-sofia" asChild>
+              <a href="https://drive.google.com/file/d/1NxFpi4ZOZs9iuvd60UAJGFiruqJkWka4/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <FileDown className="mr-2 h-4 w-4" /> Download Resume
+              </a>
             </Button>
-            <Button variant="outline" className="border-neutral-800 text-neutral-800 hover:bg-neutral-100 font-sofia">
-              <Mail className="mr-2 h-4 w-4" /> Get in Touch
+            <Button variant="outline" className="border-neutral-800 text-neutral-800 hover:bg-neutral-100 font-sofia" asChild>
+              <a href="mailto:izazzubayer@gmail.com">
+                <Mail className="mr-2 h-4 w-4" /> Get in Touch
+              </a>
             </Button>
           </div>
           
