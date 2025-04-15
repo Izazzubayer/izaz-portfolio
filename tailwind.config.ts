@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -78,7 +77,7 @@ export default {
 				"soft-blue": "#B1D4E0"
 			},
 			fontFamily: {
-				sofia: ['"Sofia Pro"', 'sans-serif'],
+				sofia: ['Inter', 'sans-serif'],
 				anek: ['"Anek Bangla"', 'sans-serif'],
 				sans: ['Inter', 'sans-serif']
 			},

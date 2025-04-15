@@ -1,11 +1,10 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;500;600;700&display=swap');
-@import url('https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/sofia-pro.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 @layer base {
   :root {
@@ -54,7 +53,7 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sofia;
+    @apply bg-background text-foreground font-inter;
     font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
   }
 
