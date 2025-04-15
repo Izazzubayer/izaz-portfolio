@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;500;600;700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/sofia-pro.min.css');
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -50,8 +54,12 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sofia;
     font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-anek;
   }
 
   html {

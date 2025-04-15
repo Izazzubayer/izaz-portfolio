@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -21,12 +22,12 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: 'Home', href: '#' },
-    { name: 'Design', href: '#design' },
-    { name: 'Code', href: '#code' },
-    { name: 'Research', href: '#research' },
-    { name: 'Thoughts', href: '#thoughts' },
-    { name: 'About Me', href: '#about' }
+    { name: 'Home', href: '/' },
+    { name: 'Design', href: '/design' },
+    { name: 'Code', href: '/code' },
+    { name: 'Research', href: '/research' },
+    { name: 'Thoughts', href: '/thoughts' },
+    { name: 'About Me', href: '/about' }
   ];
 
   return (
@@ -37,20 +38,20 @@ const Navbar = () => {
       )}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <a href="#" className="font-anek text-xl md:text-2xl font-medium text-neutral-800 transition-colors hover:text-neutral-600">
+        <Link to="/" className="font-anek text-xl md:text-2xl font-medium text-neutral-800 transition-colors hover:text-neutral-600">
           Izaz Zubayer
-        </a>
+        </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.name}
-              href={link.href}
-              className="font-sofia text-neutral-700 hover:text-neutral-900 transition-colors text-sm"
+              to={link.href}
+              className="font-sofia text-neutral-700 hover:text-neutral-900 transition-colors text-sm nav-link"
             >
               {link.name}
-            </a>
+            </Link>
           ))}
         </div>
 
@@ -68,14 +69,14 @@ const Navbar = () => {
         <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-md animate-fade-in">
           <div className="flex flex-col py-4 px-6">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
-                href={link.href}
+                to={link.href}
                 className="font-sofia text-neutral-700 hover:text-neutral-900 py-3 border-b border-neutral-100 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

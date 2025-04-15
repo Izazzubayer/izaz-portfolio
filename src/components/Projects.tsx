@@ -3,6 +3,7 @@ import React from 'react';
 import { Eye } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
+// Projects data is a separate array to make it easier to edit
 const projects = [
   {
     id: 1,

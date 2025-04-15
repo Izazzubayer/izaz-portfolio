@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { ArrowLeft, ArrowRight, Award } from 'lucide-react';
+import { Award } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import {
   Carousel,
@@ -10,6 +10,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
+// Certification data is a separate array to make it easier to edit
 const certifications = [
   {
     id: 1,
@@ -141,12 +142,12 @@ const Certifications = () => {
               {certifications.map((cert) => (
                 <CarouselItem key={cert.id} className="pl-4 md:basis-1/3 lg:basis-1/3">
                   <div className="p-4">
-                    <div className="overflow-hidden rounded-lg bg-white shadow-sm border border-neutral-200 hover-scale group">
+                    <div className="overflow-hidden rounded-lg bg-white shadow-sm border border-neutral-200 cert-card group">
                       <div className="relative h-48 overflow-hidden">
                         <img 
                           src={cert.image} 
                           alt={cert.title} 
-                          className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
+                          className="w-full h-48 object-cover transition-transform duration-500 cert-image"
                         />
                         <div className="absolute inset-0 bg-neutral-800/0 transition-colors duration-300 group-hover:bg-neutral-800/20"></div>
                       </div>

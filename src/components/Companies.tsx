@@ -5,22 +5,22 @@ import { Button } from "@/components/ui/button";
 
 const companyList = [
   {
-    name: "Beige + Blue",
-    role: "Founder",
-    period: "2022 - Present",
-    description: "Founded and led a design and development studio specializing in creating digital experiences for innovative brands."
-  },
-  {
     name: "The Kow Company LTD",
     role: "HCI Specialist",
-    period: "2021 - Present",
+    period: "2024 - Present",
     description: "Lead UX research and interaction design for enterprise applications focusing on user-centered solutions."
   },
   {
-    name: "Pathao",
-    role: "Product Designer",
-    period: "2019 - 2021",
-    description: "Designed digital products for Bangladesh's largest ride-sharing platform, improving user experience across mobile and web."
+    name: "Beige + Blue",
+    role: "Founder",
+    period: "2024 - Present",
+    description: "Founded and led a design and development studio specializing in creating digital experiences for innovative brands."
+  },
+  {
+    name: "Vancouver Coastal Health",
+    role: "User Experience Designer",
+    period: "2021 - 2022",
+    description: "Designed digital healthcare solutions and interfaces to improve patient experience and clinical workflows."
   }
 ];
 
