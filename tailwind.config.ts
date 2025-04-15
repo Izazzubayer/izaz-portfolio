@@ -77,9 +77,10 @@ export default {
 				"soft-blue": "#B1D4E0"
 			},
 			fontFamily: {
-				sofia: ['Inter', 'sans-serif'],
+				sofia: ['Montserrat', 'sans-serif'],
+				inter: ['Montserrat', 'sans-serif'],
 				anek: ['"Anek Bangla"', 'sans-serif'],
-				sans: ['Inter', 'sans-serif']
+				sans: ['Montserrat', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
