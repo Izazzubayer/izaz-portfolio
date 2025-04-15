@@ -80,7 +80,7 @@ export default {
 				sofia: ['Montserrat', 'sans-serif'],
 				inter: ['Montserrat', 'sans-serif'],
 				anek: ['"Anek Bangla"', 'sans-serif'],
-				sans: ['Montserrat', 'sans-serif']
+				sans: ['"Anek Bangla"', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
