@@ -31,7 +31,7 @@ const Hero = () => {
           
           <p style={{
           animationDelay: '0.5s'
-        }} className="font-anek text-neutral-800 animate-fade-in text-left md:text-xl text-sm">
+        }} className="font-anek bangla text-neutral-800 animate-fade-in text-left md:text-xl text-sm">
             Welcome to my portfolio, brew some coffee, and take a look at my design, development, and research work — let's create something amazing together!
           </p>
           
