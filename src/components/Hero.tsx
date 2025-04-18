@@ -14,13 +14,12 @@ const Hero = () => {
           
           <h2 style={{
           animationDelay: '0.2s'
-        }} className="font-anek text-lg md:text-xl text-neutral-600 animate-fade-in">
-            Founder @ Beige + Blue | HCI Specialist @ The Kow Company LTD.
-          </h2>
+        }} className="font-anek text-lg md:text-xl text-neutral-600 animate-fade-in">Founder, Pixel Mango, Beige + Blue
+HCI Specialist @ The Kow Company LTD.</h2>
           
           <p style={{
           animationDelay: '0.3s'
-        }} className="font-sofia text-base text-neutral-700 animate-fade-in md:text-lg">I build digital brands, craft experience, and innovate solutions.</p>
+        }} className="font-sofia text-base text-neutral-700 animate-fade-in md:text-lg">I build products, craft experience, and innovate solutions.</p>
           
           <div className="font-sofia text-base text-neutral-700 leading-relaxed space-y-4 animate-fade-in" style={{
           animationDelay: '0.4s'
@@ -31,7 +30,7 @@ const Hero = () => {
           
           <p style={{
           animationDelay: '0.5s'
-        }} className="font-anek bangla text-neutral-800 animate-fade-in text-left md:text-xl text-sm">
+        }} className="font-anek bangla text-neutral-800 animate-fade-in text-left md:text-xl text-base">
             Welcome to my portfolio, brew some coffee, and take a look at my design, development, and research work — let's create something amazing together!
           </p>
           
