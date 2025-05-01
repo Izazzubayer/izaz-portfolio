@@ -1,6 +1,6 @@
 
-import React, { useEffect, useRef, useState } from 'react';
-import { Progress } from "@/components/ui/progress";
+import React from 'react';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, Briefcase, MapPin } from 'lucide-react';
 
 type WorkExperience = {
@@ -56,96 +56,53 @@ interface WorkTimelineProps {
 }
 
 const WorkTimeline: React.FC<WorkTimelineProps> = ({ className }) => {
-  const [scrollProgress, setScrollProgress] = useState(0);
-  const timelineRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (!timelineRef.current) return;
-      
-      const { top, height } = timelineRef.current.getBoundingClientRect();
-      const windowHeight = window.innerHeight;
-      
-      // Calculate how much of the timeline is in view
-      const visibleHeight = Math.min(windowHeight, top + height) - Math.max(0, top);
-      const visibleRatio = Math.max(0, Math.min(1, visibleHeight / height));
-      
-      // Calculate scroll progress based on how much we've scrolled through the timeline
-      // Start when the top of the element enters the viewport (top <= windowHeight)
-      // End when the bottom of the element exits the viewport (top + height <= 0)
-      const scrollPosition = 1 - (top / (windowHeight + height));
-      const progress = Math.max(0, Math.min(100, scrollPosition * 100));
-      
-      setScrollProgress(progress);
-    };
-
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    handleScroll(); // Initialize on mount
-    
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   return (
-    <div ref={timelineRef} className={`relative ${className}`}>
-      {/* Progress Bar */}
-      <div className="absolute left-6 md:left-9 top-0 bottom-0 w-0.5 bg-neutral-200">
-        <div 
-          className="absolute top-0 left-0 w-full bg-neutral-800 transition-all duration-200"
-          style={{ height: `${scrollProgress}%` }}
-        ></div>
-      </div>
-      
-      {/* Progress Indicator */}
+    <div className={`${className}`}>
       <div className="mb-8 flex items-center">
         <div className="w-12 md:w-18 flex justify-center">
           <Briefcase className="h-6 w-6 text-neutral-800" />
         </div>
         <div className="ml-4 flex-grow">
           <h2 className="font-anek text-3xl font-bold text-neutral-800">Work Experience</h2>
-          <Progress value={scrollProgress} className="h-2 w-full mt-2" />
         </div>
       </div>
       
-      {/* Timeline Items */}
-      <div className="space-y-10 md:space-y-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {workExperienceData.map((experience, index) => (
-          <div 
+          <Card 
             key={`${experience.company}-${index}`}
-            className="relative ml-12 md:ml-18 pl-8 animate-fade-in"
-            style={{ animationDelay: `${0.1 * (index + 1)}s` }}
+            className="hover-lift border-neutral-200"
           >
-            {/* Circle on timeline */}
-            <div className="absolute left-[-2.5rem] md:left-[-3.5rem] top-0 w-4 h-4 rounded-full bg-neutral-800 border-4 border-white"></div>
+            <CardHeader className="pb-2">
+              <CardTitle className="font-anek text-xl text-neutral-800">{experience.company}</CardTitle>
+              <CardDescription className="font-anek text-lg text-neutral-600 flex flex-wrap items-center gap-x-2">
+                <span>{experience.role}</span>
+                <span className="w-1.5 h-1.5 rounded-full bg-neutral-400"></span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="h-4 w-4" /> 
+                  {experience.period}
+                </span>
+              </CardDescription>
+              {experience.location && (
+                <div className="font-anek text-neutral-600 flex items-center">
+                  <MapPin className="h-4 w-4 mr-1" /> 
+                  {experience.location}
+                </div>
+              )}
+            </CardHeader>
             
-            <h3 className="font-anek text-xl font-semibold text-neutral-800">{experience.company}</h3>
-            <p className="font-anek text-lg text-neutral-600 flex flex-wrap items-center gap-x-2 mb-1">
-              <span>{experience.role}</span> 
-              <span className="w-1.5 h-1.5 rounded-full bg-neutral-400"></span> 
-              <span className="flex items-center gap-1">
-                <Calendar className="h-4 w-4" /> 
-                {experience.period}
-              </span>
-            </p>
-            
-            {experience.location && (
-              <p className="font-anek text-neutral-600 mb-3 flex items-center">
-                <MapPin className="h-4 w-4 mr-1" /> 
-                {experience.location}
-              </p>
-            )}
-            
-            {Array.isArray(experience.description) ? (
-              <ul className="font-anek text-neutral-700 list-disc ml-5 space-y-1">
-                {experience.description.map((item, i) => (
-                  <li key={i}>{item}</li>
-                ))}
-              </ul>
-            ) : (
-              <p className="font-anek text-neutral-700">{experience.description}</p>
-            )}
-          </div>
+            <CardContent className="pt-2">
+              {Array.isArray(experience.description) ? (
+                <ul className="font-anek text-neutral-700 list-disc ml-5 space-y-1">
+                  {experience.description.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="font-anek text-neutral-700">{experience.description}</p>
+              )}
+            </CardContent>
+          </Card>
         ))}
       </div>
     </div>
