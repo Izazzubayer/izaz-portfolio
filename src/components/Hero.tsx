@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ArrowDown, FileDown, Mail } from 'lucide-react';
 import { Button } from "@/components/ui/button";
@@ -14,14 +15,14 @@ const Hero = () => {
           
           <h2 style={{
           animationDelay: '0.2s'
-        }} className="font-anek text-lg md:text-xl text-neutral-600 animate-fade-in">Founder, Pixel Mango, Beige + Blue 
+        }} className="font-anek text-lg md:text-xl text-neutral-600 animate-fade-in">Founder, Pixel Mango, Beige + Blue 
 HCI Specialist @ The Kow Company LTD.</h2>
           
           <p style={{
           animationDelay: '0.3s'
-        }} className="font-sofia text-base text-neutral-700 animate-fade-in md:text-lg">I build products, craft experience, and innovate solutions.</p>
+        }} className="font-anek text-base text-neutral-700 animate-fade-in md:text-lg">I build products, craft experience, and innovate solutions.</p>
           
-          <div className="font-sofia text-base text-neutral-700 leading-relaxed space-y-4 animate-fade-in" style={{
+          <div className="font-anek text-base text-neutral-700 leading-relaxed space-y-4 animate-fade-in" style={{
           animationDelay: '0.4s'
         }}>
             <p>I'm a versatile professional with extensive experience in code, research, and design, with a passion for creative pursuits like photography, videography, and social media management. My skill set encompasses various disciplines, including project management, vibe coding, and product design.</p>
@@ -37,12 +38,12 @@ HCI Specialist @ The Kow Company LTD.</h2>
           <div className="flex flex-col sm:flex-row gap-4 pt-4 animate-fade-in" style={{
           animationDelay: '0.6s'
         }}>
-            <Button className="bg-neutral-800 hover:bg-neutral-700 text-white font-sofia" asChild>
+            <Button className="bg-neutral-800 hover:bg-neutral-700 text-white font-anek" asChild>
               <a href="https://drive.google.com/file/d/1NxFpi4ZOZs9iuvd60UAJGFiruqJkWka4/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <FileDown className="mr-2 h-4 w-4" /> Download Resume
               </a>
             </Button>
-            <Button variant="outline" className="border-neutral-800 text-neutral-800 hover:bg-neutral-100 font-sofia" asChild>
+            <Button variant="outline" className="border-neutral-800 text-neutral-800 hover:bg-neutral-100 font-anek" asChild>
               <a href="mailto:izazzubayer@gmail.com">
                 <Mail className="mr-2 h-4 w-4" /> Get in Touch
               </a>

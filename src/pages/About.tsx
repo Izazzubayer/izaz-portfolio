@@ -2,8 +2,9 @@
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import BackToTop from '@/components/BackToTop';
+import WorkTimeline from '@/components/WorkTimeline';
 import { Button } from "@/components/ui/button";
-import { FileDown, Mail, MapPin, GraduationCap, Heart, Briefcase } from 'lucide-react';
+import { FileDown, Mail, MapPin, GraduationCap, Heart } from 'lucide-react';
 
 const About = () => {
   return (
@@ -24,12 +25,12 @@ const About = () => {
                   />
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Button className="bg-neutral-800 hover:bg-neutral-700 text-white font-sofia" asChild>
+                  <Button className="bg-neutral-800 hover:bg-neutral-700 text-white font-anek" asChild>
                     <a href="https://drive.google.com/file/d/1NxFpi4ZOZs9iuvd60UAJGFiruqJkWka4/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <FileDown className="mr-2 h-4 w-4" /> Download Resume
                     </a>
                   </Button>
-                  <Button variant="outline" className="border-neutral-800 text-neutral-800 hover:bg-neutral-100 font-sofia" asChild>
+                  <Button variant="outline" className="border-neutral-800 text-neutral-800 hover:bg-neutral-100 font-anek" asChild>
                     <a href="mailto:izazzubayer@gmail.com">
                       <Mail className="mr-2 h-4 w-4" /> Get in Touch
                     </a>
@@ -42,48 +43,26 @@ const About = () => {
               <h1 className="font-anek text-4xl md:text-5xl font-bold text-neutral-800 mb-6">About Me</h1>
               
               <div className="mb-8">
-                <div className="flex items-center gap-2 text-neutral-600 mb-4 font-sofia">
+                <div className="flex items-center gap-2 text-neutral-600 mb-4 font-anek">
                   <MapPin className="h-4 w-4" />
                   <span>Vancouver, Canada</span>
                 </div>
-                <p className="font-sofia text-lg text-neutral-700 mb-4">
+                <p className="font-anek text-lg text-neutral-700 mb-4">
                   I'm Izaz, a multidisciplinary designer and researcher with a passion for creating user-centered digital experiences that make a positive impact.
                 </p>
-                <p className="font-sofia text-lg text-neutral-700 mb-4">
+                <p className="font-anek text-lg text-neutral-700 mb-4">
                   With a background spanning UX design, research, and development, I bring a holistic approach to solving complex problems. I believe that great design emerges from deeply understanding users, their contexts, and their needs.
                 </p>
-                <p className="font-sofia text-lg text-neutral-700 mb-4">
+                <p className="font-anek text-lg text-neutral-700 mb-4">
                   Throughout my career, I've worked with diverse teams across healthcare, finance, and technology sectors, applying user-centered methodologies to create intuitive, accessible, and delightful experiences.
                 </p>
-                <p className="font-sofia text-lg text-neutral-700">
+                <p className="font-anek text-lg text-neutral-700">
                   When I'm not designing or coding, you'll find me exploring photography, experimenting with new recipes, or hiking the beautiful trails around Vancouver.
                 </p>
               </div>
               
-              <section className="mb-10">
-                <h2 className="font-anek text-2xl font-bold text-neutral-800 mb-6 flex items-center">
-                  <Briefcase className="mr-2 h-5 w-5" /> Professional Journey
-                </h2>
-                <div className="space-y-6">
-                  <div className="border-l-2 border-neutral-300 pl-6 relative">
-                    <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-neutral-800"></div>
-                    <h3 className="font-anek text-xl font-semibold text-neutral-800">HCI Specialist</h3>
-                    <p className="font-sofia text-neutral-600">The Kow Company LTD • 2024 - Present</p>
-                    <p className="font-sofia text-neutral-700 mt-2">Leading UX research and design initiatives for enterprise applications, focusing on improving usability and user satisfaction.</p>
-                  </div>
-                  <div className="border-l-2 border-neutral-300 pl-6 relative">
-                    <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-neutral-800"></div>
-                    <h3 className="font-anek text-xl font-semibold text-neutral-800">Founder</h3>
-                    <p className="font-sofia text-neutral-600">Beige + Blue • 2024 - Present</p>
-                    <p className="font-sofia text-neutral-700 mt-2">Established and leading a design studio focused on creating intuitive and impactful digital experiences for emerging brands.</p>
-                  </div>
-                  <div className="border-l-2 border-neutral-300 pl-6 relative">
-                    <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-neutral-800"></div>
-                    <h3 className="font-anek text-xl font-semibold text-neutral-800">User Experience Designer</h3>
-                    <p className="font-sofia text-neutral-600">Vancouver Coastal Health • 2021 - 2022</p>
-                    <p className="font-sofia text-neutral-700 mt-2">Designed patient-centered digital healthcare solutions, improving accessibility and information delivery for diverse user groups.</p>
-                  </div>
-                </div>
+              <section className="mb-16">
+                <WorkTimeline />
               </section>
               
               <section className="mb-10">
@@ -93,13 +72,13 @@ const About = () => {
                 <div className="space-y-6">
                   <div>
                     <h3 className="font-anek text-xl font-semibold text-neutral-800">Master of Digital Media</h3>
-                    <p className="font-sofia text-neutral-600">Centre for Digital Media • 2020 - 2021</p>
-                    <p className="font-sofia text-neutral-700 mt-2">Specialized in UX design, project management, and digital storytelling through collaborative industry projects.</p>
+                    <p className="font-anek text-neutral-600">Centre for Digital Media • 2020 - 2021</p>
+                    <p className="font-anek text-neutral-700 mt-2">Specialized in UX design, project management, and digital storytelling through collaborative industry projects.</p>
                   </div>
                   <div>
                     <h3 className="font-anek text-xl font-semibold text-neutral-800">Bachelor of Computer Science</h3>
-                    <p className="font-sofia text-neutral-600">University of British Columbia • 2016 - 2020</p>
-                    <p className="font-sofia text-neutral-700 mt-2">Focused on human-computer interaction, software engineering, and interactive systems design.</p>
+                    <p className="font-anek text-neutral-600">University of British Columbia • 2016 - 2020</p>
+                    <p className="font-anek text-neutral-700 mt-2">Focused on human-computer interaction, software engineering, and interactive systems design.</p>
                   </div>
                 </div>
               </section>
@@ -118,7 +97,7 @@ const About = () => {
                     "Avid reader of science fiction and design theory"
                   ].map((interest, index) => (
                     <div key={index} className="bg-white p-4 rounded-lg border border-neutral-200">
-                      <p className="font-sofia text-neutral-700">{interest}</p>
+                      <p className="font-anek text-neutral-700">{interest}</p>
                     </div>
                   ))}
                 </div>
