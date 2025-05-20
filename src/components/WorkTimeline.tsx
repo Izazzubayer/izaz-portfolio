@@ -15,7 +15,7 @@ const workExperienceData: WorkExperience[] = [
   {
     company: "Pixel Mango",
     role: "Founder",
-    period: "April 2025 - Present",
+    period: "Apr 2025 - Present",
     location: "Dhaka, Bangladesh",
     description: "Bridging the gap between small business needs and world-class design. Offering services such as Rebranding, Website design and development, Printing cards and logos, Product photography and more."
   },
@@ -30,24 +30,29 @@ const workExperienceData: WorkExperience[] = [
     company: "The Kow Company",
     role: "HCI Specialist",
     period: "Sept 2024 - Present",
-    description: "Lead UX research and interaction design for enterprise applications focusing on user-centered solutions."
+    description: "Design and optimize user-centered digital experiences by applying principles of Human-Computer Interaction. Conduct user research, develop wireframes and prototypes, and collaborate with cross-functional teams to enhance usability and accessibility across platforms. Drive improvements in interface design to ensure intuitive, efficient, and engaging user interactions."
   },
   {
     company: "Blueprint",
     role: "UX Designer",
-    period: "Aug 2022 - Present",
+    period: "Aug 2023 - Dec 2023",
     location: "Vancouver, British Columbia",
-    description: [
-      "Supervised weekly UX research (usability tests, heuristic evaluations, A/B testing) and prototype evaluations, reporting findings to drive Blueprint web development.",
-      "Streamlined design handoffs to developers, improving project efficiency by 35%"
-    ]
+    description: "Supervised weekly UX research activities—including usability tests, heuristic evaluations, and A/B testing—to inform and guide Blueprint web development. Conducted in-depth prototype evaluations and delivered actionable insights to cross-functional teams. Streamlined design handoff processes to developers, increasing overall project efficiency by 35%.",
+
+  },
+  {
+    company: "Apple",
+    role: "Sales Specialist | Educator",
+    period: "June 2022 - Jan 2023",
+    location: "Vancouver, British Columbia",
+    description: "Sold 100+ Apple products by delivering personalized customer experiences through effective storytelling and clear communication. Collaborated with team members to understand and exceed customer needs, contributing to a 90% satisfaction rate based on user feedback."
   },
   {
     company: "Vancouver Coastal Health",
-    role: "UI UX Designer",
-    period: "Aug 2022 - Present",
+    role: "UI/UX Designer",
+    period: "Aug 2021 - May 2022",
     location: "Vancouver, British Columbia",
-    description: "Led Design Thinking strategy, engaging 3,600 medical staff via surveys (60% response rate) and targeted physician interviews to inform website redesign."
+    description: "Led the Design Thinking strategy for a large-scale website redesign at Vancouver Coastal Health, engaging over 3,600 medical staff through comprehensive surveys (achieving a 60% response rate) and in-depth physician interviews. Synthesized qualitative and quantitative insights to identify key user needs and pain points, directly informing user-centered design decisions that aligned with clinical workflows and improved overall usability"
   }
 ];
 

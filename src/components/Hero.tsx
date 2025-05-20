@@ -15,8 +15,7 @@ const Hero = () => {
           
           <h2 style={{
           animationDelay: '0.2s'
-        }} className="font-anek text-lg md:text-xl text-neutral-600 animate-fade-in">Founder, Pixel Mango, Beige + Blue 
-HCI Specialist @ The Kow Company LTD.</h2>
+        }} className="font-anek text-lg md:text-xl text-neutral-600 animate-fade-in">Founder - Pixel Mango & Beige + Blue . Currently HCI Specialist @ TKCL.</h2>
           
           <p style={{
           animationDelay: '0.3s'

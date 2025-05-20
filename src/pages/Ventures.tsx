@@ -36,7 +36,7 @@ const ventures = [
     period: "Sept 2024 - Present",
     location: "",
     image: "https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?w=600&auto=format&fit=crop&q=80",
-    description: "Lead UX research and interaction design for enterprise applications focusing on user-centered solutions.",
+    description: "Design and optimize user-centered digital experiences by applying principles of Human-Computer Interaction. Conduct user research, develop wireframes and prototypes, and collaborate with cross-functional teams to enhance usability and accessibility across platforms. Drive improvements in interface design to ensure intuitive, efficient, and engaging user interactions.",
     problem: "Enterprise applications often suffer from poor user experience, reducing productivity and satisfaction.",
     link: "#"
   },

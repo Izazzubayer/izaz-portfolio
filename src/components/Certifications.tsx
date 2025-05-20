@@ -14,84 +14,48 @@ import {
 const certifications = [
   {
     id: 1,
-    title: "UX Design Professional Certificate",
-    issuer: "Google",
-    date: "2023",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&auto=format&fit=crop&q=80",
-    description: "Completed Google's comprehensive UX design program covering all aspects of the design process.",
-    link: "#"
+    title: "Project Management Specialization",
+    issuer: "Microsoft",
+    date: "2024",
+    image: "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/RWCZER-Legal-IP-Trademarks-CP-MS-logo-740x417-1?wid=406&hei=230&fit=crop",
+    description: "This certification demonstrates my proficiency in project management principles, processes, and methodologies. It covers key areas such as team building, stakeholder engagement, process groups, and the application of Agile, hybrid, and predictive approaches to ensure project success.",
+    link: "https://www.coursera.org/account/accomplishments/professional-cert/QKJWL5CT24OE"
   },
   {
     id: 2,
-    title: "Interaction Design Specialist",
-    issuer: "Interaction Design Foundation",
-    date: "2022",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&auto=format&fit=crop&q=80",
-    description: "Advanced certification in interaction design principles and methodologies.",
-    link: "#"
+    title: "UX Design Specialization",
+    issuer: "Microsoft",
+    date: "2024",
+    image: "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/RWCZER-Legal-IP-Trademarks-CP-MS-logo-740x417-1?wid=406&hei=230&fit=crop",
+    description: "Completing a professional certification outside of School helped me deepen my knowledge of user experience (UX) principles, including user research, wireframing, prototyping, visual design, and accessibility. Through self-directed learning, I have also developed a deeper understanding of how Al can enhance design creativity and efficiency, further refining my ability to deliver impactful UX solutions.",
+    link: "https://www.coursera.org/account/accomplishments/professional-cert/V4G7DUGZA7J0"
   },
   {
     id: 3,
-    title: "Product Management Certification",
-    issuer: "Product School",
-    date: "2022",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&auto=format&fit=crop&q=80",
-    description: "Specialized training in digital product management and development strategies.",
-    link: "#"
+    title: "Generative AI & LLMS",
+    issuer: "Google",
+    date: "2024",
+    image: "https://storage.googleapis.com/gd-prod/images/a910d418-7123-4bc4-aa3b-ef7e25e74ae6.60c498c559810aa0.webp",
+    description: "My knowledge extends to the fundamental principles of LLMs, including their architecture, training processes, and how they generate and interpret human-like text. I am well-versed in the various applications of LLMs, such as natural language understanding, text generation, and conversational Al. This includes exploring their use in diverse fields like customer support, content creation, and data analysis.",
+    link: "https://www.coursera.org/account/accomplishments/specialization/BJX0UFHIN4YU"
   },
   {
     id: 4,
-    title: "Web Accessibility Specialist",
+    title: "Agile with Atlassian Jira",
     issuer: "International Association of Accessibility Professionals",
     date: "2021",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&auto=format&fit=crop&q=80",
-    description: "Expert certification in creating accessible digital experiences for all users.",
-    link: "#"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQbRnJ4-vn532EwjpxecGGvBAOcaa0TbpM9B_teMSS93gBxxlUj3lkio9C7UycmbEpoUU&usqp=CAU",
+    description: "I recently earned a certification in Agile Project Management using Atlassian Jira through Coursera, aligning perfectly with my skillset as a generalist who thrives across multiple disciplines including design, research, coding, and management. This course deepened my understanding of agile frameworks such as Scrum and Kanban, equipping me with the skills to effectively manage cross-functional teams and projects.",
+    link: "https://www.coursera.org/account/accomplishments/verify/TTILFEP41C1G"
   },
   {
     id: 5,
-    title: "Design Thinking Practitioner",
-    issuer: "IDEO",
-    date: "2021",
-    image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=600&auto=format&fit=crop&q=80",
-    description: "Certified in human-centered design methodology and problem-solving approaches.",
-    link: "#"
-  },
-  {
-    id: 6,
-    title: "Agile Project Management",
-    issuer: "Scrum Alliance",
-    date: "2020",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=80",
-    description: "Certification in Agile methodologies and Scrum framework implementation.",
-    link: "#"
-  },
-  {
-    id: 7,
-    title: "Frontend Development",
-    issuer: "freeCodeCamp",
-    date: "2020",
-    image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=600&auto=format&fit=crop&q=80",
-    description: "Comprehensive certification in modern frontend development technologies.",
-    link: "#"
-  },
-  {
-    id: 8,
-    title: "UI Animation & Motion Design",
-    issuer: "Motional",
-    date: "2019",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format&fit=crop&q=80",
-    description: "Specialized training in creating engaging UI animations and motion designs.",
-    link: "#"
-  },
-  {
-    id: 9,
-    title: "Research Methods in UX",
-    issuer: "Nielsen Norman Group",
-    date: "2019",
-    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&auto=format&fit=crop&q=80",
-    description: "Advanced certification in UX research methodologies and user testing.",
-    link: "#"
+    title: "StormHacks Hackathon",
+    issuer: "Simon Fraser University",
+    date: "2023",
+    image: "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/001/321/607/datas/original.png",
+    description: "My team& I secured third place out of 93 participants in the StormHacks Hackathon with our HubSFU, an app designed to improve the student experience at Simon Fraser University (SFU). As part of a dedicated team DaisySoft, I helped create a platform that addresses key challenges faced by students, providing them with a centralized hub for essential resources, event management, and academic tools.",
+    link: "https://devpost.com/software/hubsfu-by-daisysoft"
   }
 ];
 
