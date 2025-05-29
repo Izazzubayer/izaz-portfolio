@@ -13,10 +13,10 @@ const ventures = [
     role: "Founder",
     period: "April 2025 - Present",
     location: "Dhaka, Bangladesh",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&auto=format&fit=crop&q=80",
+    image: "https://i.postimg.cc/FzqsWSrH/Frame-70.jpg",
     description: "Bridging the gap between small business needs and world-class design. Offering services such as Rebranding, Website design and development, Printing cards and logos, Product photography and more.",
     problem: "Small businesses often struggle to access professional design services due to budget constraints.",
-    link: "#"
+    link: "https://pixelmango.studio/"
   },
   {
     id: 2,
@@ -24,44 +24,44 @@ const ventures = [
     role: "Founder",
     period: "Nov 2024 - Present",
     location: "Dhaka, Bangladesh",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&auto=format&fit=crop&q=80",
+    image: "https://i.postimg.cc/nzrJyLwj/Frame-71.jpg",
     description: "Founded a men's polo shirt brand, Conducted market and consumer research to attract the target niche, curating marketing strategies through primary and secondary research methods.",
     problem: "The men's fashion market lacked affordable quality polo shirts with modern design aesthetics.",
-    link: "#"
+    link: "https://beigeandblue.com/"
   },
-  {
-    id: 3,
-    title: "The Kow Company",
-    role: "HCI Specialist",
-    period: "Sept 2024 - Present",
-    location: "",
-    image: "https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?w=600&auto=format&fit=crop&q=80",
-    description: "Design and optimize user-centered digital experiences by applying principles of Human-Computer Interaction. Conduct user research, develop wireframes and prototypes, and collaborate with cross-functional teams to enhance usability and accessibility across platforms. Drive improvements in interface design to ensure intuitive, efficient, and engaging user interactions.",
-    problem: "Enterprise applications often suffer from poor user experience, reducing productivity and satisfaction.",
-    link: "#"
-  },
-  {
-    id: 4,
-    title: "Blueprint",
-    role: "UX Designer",
-    period: "Aug 2022 - Present",
-    location: "Vancouver, British Columbia",
-    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&auto=format&fit=crop&q=80",
-    description: "Supervised weekly UX research (usability tests, heuristic evaluations, A/B testing) and prototype evaluations, reporting findings to drive Blueprint web development. Streamlined design handoffs to developers, improving project efficiency by 35%.",
-    problem: "Inefficient design-to-development handoff processes were causing delays and miscommunications.",
-    link: "#"
-  },
-  {
-    id: 5,
-    title: "Vancouver Coastal Health",
-    role: "UI UX Designer",
-    period: "Aug 2022 - Present",
-    location: "Vancouver, British Columbia",
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&auto=format&fit=crop&q=80",
-    description: "Led Design Thinking strategy, engaging 3,600 medical staff via surveys (60% response rate) and targeted physician interviews to inform website redesign.",
-    problem: "Healthcare professionals needed a more efficient digital platform to access critical information.",
-    link: "#"
-  },
+  // {
+  //   id: 3,
+  //   title: "The Kow Company",
+  //   role: "HCI Specialist",
+  //   period: "Sept 2024 - Present",
+  //   location: "",
+  //   image: "https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?w=600&auto=format&fit=crop&q=80",
+  //   description: "Design and optimize user-centered digital experiences by applying principles of Human-Computer Interaction. Conduct user research, develop wireframes and prototypes, and collaborate with cross-functional teams to enhance usability and accessibility across platforms. Drive improvements in interface design to ensure intuitive, efficient, and engaging user interactions.",
+  //   problem: "Enterprise applications often suffer from poor user experience, reducing productivity and satisfaction.",
+  //   link: "#"
+  // },
+  // {
+  //   id: 4,
+  //   title: "Blueprint",
+  //   role: "UX Designer",
+  //   period: "Aug 2022 - Present",
+  //   location: "Vancouver, British Columbia",
+  //   image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&auto=format&fit=crop&q=80",
+  //   description: "Supervised weekly UX research (usability tests, heuristic evaluations, A/B testing) and prototype evaluations, reporting findings to drive Blueprint web development. Streamlined design handoffs to developers, improving project efficiency by 35%.",
+  //   problem: "Inefficient design-to-development handoff processes were causing delays and miscommunications.",
+  //   link: "#"
+  // },
+  // {
+  //   id: 5,
+  //   title: "Vancouver Coastal Health",
+  //   role: "UI UX Designer",
+  //   period: "Aug 2022 - Present",
+  //   location: "Vancouver, British Columbia",
+  //   image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&auto=format&fit=crop&q=80",
+  //   description: "Led Design Thinking strategy, engaging 3,600 medical staff via surveys (60% response rate) and targeted physician interviews to inform website redesign.",
+  //   problem: "Healthcare professionals needed a more efficient digital platform to access critical information.",
+  //   link: "#"
+  // },
 ];
 
 const Ventures = () => {

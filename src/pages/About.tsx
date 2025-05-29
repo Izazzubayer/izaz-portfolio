@@ -71,15 +71,15 @@ const About = () => {
                 </h2>
                 <div className="space-y-6">
                   <div>
-                    <h3 className="font-anek text-xl font-semibold text-neutral-800">Master of Digital Media</h3>
-                    <p className="font-anek text-neutral-600">Centre for Digital Media • 2020 - 2021</p>
-                    <p className="font-anek text-neutral-700 mt-2">Specialized in UX design, project management, and digital storytelling through collaborative industry projects.</p>
+                    <h3 className="font-anek text-xl font-semibold text-neutral-800">Bachelor of Arts & Social Science</h3>
+                    <p className="font-anek text-neutral-600">Simon Fraser University</p>
+                    <p className="font-anek text-neutral-700 mt-2">Cognitive Science & Human Computer Interaction</p>
                   </div>
-                  <div>
-                    <h3 className="font-anek text-xl font-semibold text-neutral-800">Bachelor of Computer Science</h3>
-                    <p className="font-anek text-neutral-600">University of British Columbia • 2016 - 2020</p>
-                    <p className="font-anek text-neutral-700 mt-2">Focused on human-computer interaction, software engineering, and interactive systems design.</p>
-                  </div>
+                  {/* <div>
+                    <h3 className="font-anek text-xl font-semibold text-neutral-800">Bachelor of Arts & Social Science</h3>
+                    <p className="font-anek text-neutral-600">Simon Fraser University</p>
+                    <p className="font-anek text-neutral-700 mt-2">Minor: Human Computer Interaction</p>
+                  </div> */}
                 </div>
               </section>
               
@@ -90,10 +90,8 @@ const About = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
                     "Photography enthusiast with a focus on urban landscapes",
-                    "Amateur chef experimenting with fusion cuisine",
-                    "Outdoor adventurer exploring the Pacific Northwest",
+                    "Try-hard chef experimenting with fusion cuisine",
                     "Technology hobbyist building small IoT projects",
-                    "Volunteer teaching digital skills to seniors",
                     "Avid reader of science fiction and design theory"
                   ].map((interest, index) => (
                     <div key={index} className="bg-white p-4 rounded-lg border border-neutral-200">

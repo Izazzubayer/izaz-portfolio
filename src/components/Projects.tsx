@@ -40,29 +40,28 @@ const projects = [
     keyInsights: ["Users preferred simplified views for daily tasks", "Authentication flow needed streamlining"],
     process: "Started with user research, created wireframes, developed interactive prototypes, and conducted iterative testing",
     testingResults: "90% of test users completed key tasks successfully compared to 65% with the old design",
-    impact: "Increased user retention by 25% and reduced support tickets by 40%"
+    impact: "Increased user retention by 25% and reduced exiting tab by 40%"
   },
   {
     id: 2,
-    title: "E-commerce Experience Enhancement",
+    title: "SFU Snap App",
     category: "User Research & Design",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&auto=format&fit=crop&q=80",
-    description: "Research-led redesign of an e-commerce platform that increased conversion rates by 24% through improved navigation and checkout flow.",
+    image: "https://www.sfu.ca/content/sfu/carnegie/about/institutions/simon-fraser-university/jcr:content/main_content/image_8.img.640.medium.png/1550784829633.png",
+    description: "While pursuing my undergraduate studies at Simon Fraser University, I recognized an opportunity to enhance the user experience of the SFU Snap App. This ambition led me to embark on a comprehensive redesign endeavor, encompassing a complete overhaul of the app's user interface, information architecture, and overall user flow. To ensure the success of this project, I diligently conducted surveys and engaged in thorough user research. This process afforded me invaluable insights into the specific needs and preferences of the student body, enabling me to streamline and simplify the user experience for all.",
     link: "#",
-    client: "ShopX Online Retail",
+    client: "Simon Fraser University",
     role: "UX Researcher & Designer",
-    team: ["Senior UI Designer", "Frontend Engineer", "Product Owner"],
-    timeline: "4 months (Sept-Dec 2024)",
-    tools: ["Adobe XD", "Hotjar", "Optimizely"],
-    objective: "To optimize the shopping journey and increase conversion rates",
-    context: "High cart abandonment rates were affecting revenue growth",
-    painPoints: ["Complicated checkout process", "Poor product filtering", "Slow load times"],
-    businessGoals: "Increase conversion rate by 15% and reduce cart abandonment",
-    researchMethods: ["A/B testing", "User session recordings", "Exit surveys"],
-    keyInsights: ["Users abandoned checkout when shipping costs were revealed late", "Mobile users struggled with filtering options"],
-    process: "Analyzed user behavior data, redesigned critical user journeys, and implemented an optimized checkout flow",
-    testingResults: "Reduced average checkout time from 4 minutes to 2.5 minutes",
-    impact: "Increased conversion rate by 24% and reduced cart abandonment by 30%"
+    team: ["Solo"],
+    timeline: "4-6 months",
+    tools: ["Figma", "Miro", "Microsoft Word"],
+    objective: "Make the app user-friendly by fixing the design components and improving usability. Improve user experience and retention by finding user pain points via UX research methods.",
+    context: "SFU Snap App has existed for a long time, and I saw this as an opportunity to revamp the looks and feel so that the app can become an integral part of Simon Fraser University students’ life. After using it I figured out that the entire app infrastructure and user interface can be redesigned and improved to enhance students experience.",
+    painPoints: ["The app keeps on logging out", "It crashes a lot", "Unreliable design", "Bad information architecture and user flow"],
+    researchMethods: ["A/B testing", "User expereince walkthrough", "Interviews"],
+    keyInsights: ["Users couldn't navigate to their preferred tab", "They couldn't successfully do what they intended to do", "Design was confusing", "Redundant options"],
+    process: "Analyzed user behavior data, redesigned critical user journeys, and implemented an optimized flow",
+    testingResults: "Reduced average navigation time from 2 minutes to 28 seconds",
+    impact: "Increased conversion rate by 24% and reduced exiting of app by 30%"
   }
 ];
 
