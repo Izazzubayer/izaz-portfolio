@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Navbar from '@/components/Navbar';
 import BackToTop from '@/components/BackToTop';
@@ -84,23 +83,23 @@ const designProjects = [
     id: 4,
     title: "Myditation App",
     category: "Mobile App Design",
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&auto=format&fit=crop&q=80",
-    description: "A mindfulness and meditation mobile application designed to help users develop daily meditation habits through personalized guided sessions and progress tracking.",
+    image: "/lovable-uploads/a502a77b-21d6-448b-8fa6-aececcbbae21.png",
+    description: "An app that helps remind seniors (specifically 75 years or older) to take their medicine daily. A student-centric mental health app aimed at helping students effectively manage stress and anxiety during the demanding middle of the semester.",
     link: "#",
     client: "Myditation Wellness",
-    role: "UX/UI Designer",
-    team: ["Wellness Expert", "Mobile Developer", "Content Creator"],
+    role: "UX Designing, Interface Design, Interaction & Prototype, Project Management",
+    team: ["Sofia", "Xiaoli", "Baidiya"],
     timeline: "6 months (Mar-Aug 2024)",
     tools: ["Figma", "Sketch", "Lottie"],
-    objective: "To create a calming and intuitive meditation app that encourages daily practice and mindfulness",
-    context: "Mental health awareness is growing, and there's a need for accessible meditation tools that cater to both beginners and experienced practitioners",
-    painPoints: ["Overwhelming meditation options", "Lack of progress visualization", "Inconsistent practice habits"],
-    businessGoals: "Increase user retention and establish a sustainable subscription model",
-    researchMethods: ["User interviews with meditation practitioners", "Journey mapping", "Wellness expert consultations"],
-    keyInsights: ["Users needed gentle onboarding for meditation", "Progress visualization motivated continued use"],
-    process: "Researched meditation practices, designed calming user interfaces, and created personalized experience flows",
-    testingResults: "Daily active users increased by 60% with the new personalized approach",
-    impact: "Achieved 85% user retention rate and 40% subscription conversion"
+    objective: "To keep the users (specifically seniors) aware of the amount of doses per day and also prevent them from missing one. Design a student-centric mental health app that helps manage stress and anxiety.",
+    context: "Apps like these are very limited, and not directed towards seniors. The few apps that offer these are very outdated. There are too many different steps which can then lead to confusion. Mental health awareness is growing, and there's a need for accessible meditation tools that cater to both beginners and experienced practitioners.",
+    painPoints: ["Apps very limited for seniors", "Outdated existing solutions", "Too many complex steps leading to confusion", "Costly subscriptions for mental health apps", "Lack of niche focus for students", "Privacy concerns with mental health data"],
+    businessGoals: "To address gaps in the market by offering a personalized, niche-specific solution that is both accessible and cost-effective for students and seniors",
+    researchMethods: ["Usability testing with BetterMe app", "User interviews with meditation practitioners and seniors", "Competitive analysis of existing mental health apps", "Journey mapping", "Wellness expert consultations", "Demographics analysis of target users"],
+    keyInsights: ["Current apps have costly subscriptions making them inaccessible to students", "Most apps lack niche focus for specific user groups", "Users needed gentle onboarding for meditation", "Progress visualization motivated continued use", "Seniors needed simpler interfaces with fewer steps", "Local data storage was crucial for privacy concerns"],
+    process: "Conducted comprehensive usability testing on existing apps like BetterMe, identified key pain points through user research, designed personalized experience flows for both seniors and students, created calming user interfaces, implemented local data storage for privacy, developed robust customization systems",
+    testingResults: "Usability test with BetterMe revealed major navigation issues and inconsistent design patterns. Participants spent 3-7 minutes searching for activities. Setup task took 35% of total test duration. Daily active users increased by 60% with new personalized approach after implementing findings.",
+    impact: "Successfully designed a comprehensive solution addressing both senior medication reminders and student mental health needs. Achieved 85% user retention rate and 40% subscription conversion. Identified and solved critical usability issues present in existing mental health apps."
   }
 ];
 
